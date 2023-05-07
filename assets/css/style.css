@@ -250,5 +250,6 @@ section {
   .phone {
     grid-row: 3;
     text-decoration: dashed;
+    display: block;
   }
 }
