@@ -9,12 +9,7 @@ body {
 }
 
 a {
-  color: #287175;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #287175;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -169,6 +164,14 @@ p {
     width: 10%;
     background-color: #fff;
     height: 0.5px;
+  }
+  
+  .sep-mobile1 {
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  background-color: #fff;
+  height: 0.1px;
   }
 }
 
