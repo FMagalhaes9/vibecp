@@ -131,10 +131,6 @@ p {
   display: none;
 }
 
-.sep-mobile1 {
-  display: none;
-}
-
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -171,14 +167,7 @@ p {
     background-color: #fff;
     height: 1px;
   }
-  
-  .sep-mobile1 {
-  display: block;
-  margin: 0 auto;
-  width: 10%;
-  background-color: #fff;
-  height: 0.5px;
-  }
+
 }
 
 /*--------------------------------------------------------------
