@@ -135,22 +135,7 @@ p {
   #hero {
     background-attachment: fixed;
   }
-  
-  .sep-mobile {
-    display: block;
-    margin: 0 auto;
-    width: 10%;
-    background-color: #fff;
-    height: 0.5px;
-  }
-
-  .sep-mobile1 {
-    display: block;
-    margin: 0 auto;
-    width: 10%;
-    background-color: #fff;
-    height: 0.1px;
-  }
+ 
 }
 
 @media (max-width: 768px) {
