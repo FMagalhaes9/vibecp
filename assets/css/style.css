@@ -2,8 +2,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: "Poppins", "light", sans-serif;
+  color: #1E1E1E;
   margin: 0;
   padding: 0;
 }
@@ -60,6 +60,7 @@ p {
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
+    
   }
 
   100% {
@@ -133,6 +134,22 @@ p {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+  }
+  
+  .sep-mobile {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    background-color: #fff;
+    height: 0.5px;
+  }
+
+  .sep-mobile1 {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    background-color: #fff;
+    height: 0.1px;
   }
 }
 
