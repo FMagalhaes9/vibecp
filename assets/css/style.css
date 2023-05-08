@@ -131,6 +131,10 @@ p {
   display: none;
 }
 
+.sep-mobile1 {
+  display: none;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
