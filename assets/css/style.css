@@ -111,7 +111,6 @@ p {
 #hero .img-fluid, .animated {
   max-width: 50%;
   height: auto;
-  margin-bottom: 10vh;
 }
 
 #hero .details {
