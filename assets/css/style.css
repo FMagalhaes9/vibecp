@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Poppins", "light", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #1E1E1E;
   margin: 0;
   padding: 0;
@@ -48,7 +48,7 @@ p {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #287175;
+  border: 6px solid #00534D;
   border-top-color: #1E1E1E;
   border-bottom-color: #1E1E1E; 
   border-radius: 50%;
@@ -60,7 +60,6 @@ p {
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
-    
   }
 
   100% {
@@ -135,7 +134,7 @@ p {
   #hero {
     background-attachment: fixed;
   }
- 
+
 }
 
 @media (max-width: 768px) {
@@ -165,9 +164,16 @@ p {
     margin: 0 auto;
     width: 10%;
     background-color: #fff;
-    height: 1px;
+    height: 0.5px;
   }
 
+  .sep-mobile1 {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    background-color: #fff;
+    height: 0.1px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -199,7 +205,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4f7577;
+  background: #00534D;
   margin: 4px 10px;
 }
 
@@ -217,7 +223,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #287175;
+  background: #00534D;
   color: #fff;
   padding: 30px 100px;
   font-size: 14px;
@@ -247,7 +253,6 @@ section {
 
   .phone {
     grid-row: 3;
-    text-decoration: dashed;
-    display: block;
+    color: #fff;
   }
 }
